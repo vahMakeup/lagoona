@@ -1,3 +1,3 @@
 # lagoona
-Lagoona Hotel Chain website <br>
+Lagoona Hotel Network website <br>
 Сайт сети отелей Lagoona
