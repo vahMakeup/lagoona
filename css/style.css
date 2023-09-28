@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #CC9933;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn{
+    /* background-color: #3172b9;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px; */
+    border: 1px solid;
+    /* line-height: 1; */
+    padding: 13px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: none;
+}
+
+/* Header */
+
+.header{
+    /* height: 154px; */
+    display: block;
+}
+
+.header-conainer{
+    padding-top: 30px;
+}
+
+.header-top{
+    display: flex;
+    align-items: center;
+}
+
+/* .logo{
+    position: relative;
+} */
+
+.header-phone{
+    font-size: 20px;
+    line-height: 1;
+    margin-left: 40px;
+    color: #666666;
+}
+
+.header-cabinet{
+    margin-left: auto;
+}
+
+.header-cabinet-link{
+    color: #666666;
+    font-size: 16px;
+}
+
+.header-bottom{
+    padding: 27px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav-list{
+    display: flex;
+}
+
+.header-nav-item{
+    flex: auto;
+}
+
+.header-nav-item:not(:last-child){
+    margin-right: 45px;
+}
+
+.header-nav-item-link{
+    font-size: 14px;
+    color: #666666;
+}
+
+.header-bottom-btn{
+    display: flex;
+}
+
+.btn-want{
+    margin-right: 40px;
+}
+
+/* offers */
+.offers-list{
+    display: flex;
+    align-items: center;
+}
+
+.offers-list-left{
+    flex: 1 1 auto;
+}
+
+.offers-list-right{
+    flex: 1 1 auto;
+}
+
+/* service */
+
+.service-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-item{
+    /* flex: 50%; */
+    max-width: 49%;
+}
+
+
+/* preference */
+
+.preference-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.preference-item{
+    max-width: 23.5%;
+}
+
+/* location */
+
+.location-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.location-item{
+    max-width: 30%;
+}
+
+.location-item-more{
+    background-image: url(../img/location/41.jpg);
+    /* max-width: 30%; */
+    width: 32%
+    /* position: relative; */
+    /* background: url(../img/location/41.jpg) center center / cover no-repeat; */
+}
+
+/* .location-item-more-link{
+    color: white;
+} */
+
+
+.location-item-info-top{
+    display: flex;
+}
+
+

@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сеть Отелей Lagoona</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header-conainer">
             <div class="header-top">
                 <a href="#" class="logo">
                     <img src="img/logo.png" alt="Сеть отелей Lagoona" class="logo-img">
@@ -25,27 +27,27 @@
                 <nav class="header-nav">
                     <ul class="header-nav-list">
                         <li class="header-nav-item">
-                            <a href="">О нас</a>
+                            <a href="" class="header-nav-item-link">О нас</a>
                         </li>
                         <li class="header-nav-item">
-                            <a href="">Услуги</a>
+                            <a href="" class="header-nav-item-link">Услуги</a>
                         </li>
                         <li class="header-nav-item">
-                            <a href="">Премущества</a>
+                            <a href="" class="header-nav-item-link">Премущества</a>
                         </li>
                         <li class="header-nav-item">
-                            <a href="">Размещение</a>
+                            <a href="" class="header-nav-item-link">Размещение</a>
                         </li>
                         <li class="header-nav-item">
-                            <a href="">Блог</a>
+                            <a href="" class="header-nav-item-link">Блог</a>
                         </li>
                         <li class="header-nav-item">
-                            <a href="">Контакты</a>
+                            <a href="" class="header-nav-item-link">Контакты</a>
                         </li>
                     </ul>
                 </nav>
                 <div class="header-bottom-btn">
-                    <a href="" class="btn">
+                    <a href="" class="btn btn-want">
                         Хочу тур
                     </a>
                     <a href="" class="btn">
@@ -57,7 +59,7 @@
     </header>
     <main>
         <section class="offers">
-            <div class="container">
+            <div class="container offers-container">
                 <h2 class="section-heading">Спецпредложения</h2>
                 <div class="offers-list">
                     <div class="offers-list-left">
@@ -85,7 +87,7 @@
                         </div>
                     </div>
                     <div class="offers-list-right">
-                        <div class="offers-card-left">
+                        <div class="offers-card-right">
                             <h3 class="offers-card-heading-right"> 
                                 Номера категории
                             </h3>
@@ -114,7 +116,7 @@
                 <ul class="service-list">
                     <li class="service-item">
                         <img src="img/shampoo.jpg" alt="" class="service-pic">
-                        <h3 class="service-heading">
+                        <h3 class="service-item-heading">
                             <a href="" class="service-link">Эксклюзивное обслуживание</a>
                         </h3>
                         <p class="service-text">
@@ -123,7 +125,7 @@
                     </li>
                     <li class="service-item">
                         <img src="img/table.jpg" alt="" class="service-pic">
-                        <h3 class="service-heading">
+                        <h3 class="service-item-heading">
                             <a href="" class="service-link">Аренда банкетных залов</a>
                         </h3>
                         <p class="service-text">
@@ -132,7 +134,7 @@
                     </li>
                     <li class="service-item">
                         <img src="img/pool.jpg" alt="" class="service-pic">
-                        <h3 class="service-heading">
+                        <h3 class="service-item-heading">
                             <a href="" class="service-link">Сауны, бассейны, бани, фитнес-залы</a>
                         </h3>
                         <p class="service-text">
@@ -141,7 +143,7 @@
                     </li>
                     <li class="service-item">
                         <img src="img/car.jpg" alt="" class="service-pic">
-                        <h3 class="service-heading">
+                        <h3 class="service-item-heading">
                             <a href="" class="service-link">Охраняемые автомобильные стоянки</a>
                         </h3>
                         <p class="service-text">
@@ -228,7 +230,7 @@
                                 </div>
                             </div>
                             <h3 class="location-item-info-text">Lagoona española</h3>
-                            <span class="location-item-info-text-gray">Барселона, Испания</span>
+                            <p class="location-item-info-text-gray">Барселона, Испания</p>
                             <a href="" class="btn">
                                 Номера
                             </a>
@@ -252,7 +254,7 @@
                                 </div>
                             </div>
                             <h3 class="location-item-info-text">Lagoona son típicas</h3>
-                            <span class="location-item-info-text-gray">Барселона, Испания</span>
+                            <p class="location-item-info-text-gray">Барселона, Испания</p>
                             <a href="" class="btn">
                                 Номера
                             </a>
@@ -276,7 +278,7 @@
                                 </div>
                             </div>
                             <h3 class="location-item-info-text">Lagoona de la guerra</h3>
-                            <span class="location-item-info-text-gray">Барселона, Испания</span>
+                            <p class="location-item-info-text-gray">Барселона, Испания</p>
                             <a href="" class="btn">
                                 Номера
                             </a>
@@ -300,7 +302,7 @@
                                 </div>
                             </div>
                             <h3 class="location-item-info-text">Lagoona mentira piadosa</h3>
-                            <span class="location-item-info-text-gray">Барселона, Испания</span>
+                            <p class="location-item-info-text-gray">Барселона, Испания</p>
                             <a href="" class="btn">
                                 Номера
                             </a>
@@ -324,7 +326,7 @@
                                 </div>
                             </div>
                             <h3 class="location-item-info-text">Lagoona empujar la creatividad</h3>
-                            <span class="location-item-info-text-gray">Барселона, Испания</span>
+                            <p class="location-item-info-text-gray">Барселона, Испания</p>
                             <a href="" class="btn">
                                 Номера
                             </a>
@@ -348,7 +350,7 @@
                                 </div>
                             </div>
                             <h3 class="location-item-info-text">Lagoona el retorno</h3>
-                            <span class="location-item-info-text-gray">Барселона, Испания</span>
+                            <p class="location-item-info-text-gray">Барселона, Испания</p>
                             <a href="" class="btn">
                                 Номера
                             </a>
@@ -372,7 +374,7 @@
                                 </div>
                             </div>
                             <h3 class="location-item-info-text">Lagoona mentira piadosa</h3>
-                            <span class="location-item-info-text-gray">Барселона, Испания</span>
+                            <p class="location-item-info-text-gray">Барселона, Испания</p>
                             <a href="" class="btn">
                                 Номера
                             </a>
@@ -395,17 +397,17 @@
                                     <img src="img/star-1.png" alt="" class="location-item-info-star">
                                 </div>
                             </div>
-                            <h3 class="location-item-info-text">Lagoona suerte siguió siempre</h3>
-                            <span class="location-item-info-text-gray">Барселона, Испания</span>
-                            <a href="" class="btn">
-                                Номера
-                            </a>
+                                <h3 class="location-item-info-text">Lagoona suerte siguió siempre</h3>
+                                <p class="location-item-info-text-gray">Барселона, Испания</p>
+                                <a href="" class="btn location-btn">
+                                    Номера
+                                </a>
                         </div>
                     </li>
                     <li class="location-item-more">
-                        <a href="" class="location-item-more-link">
-                            Посмотреть все варианты
-                        </a>
+                            <a href="" class="location-item-more-link">
+                                Посмотреть все варианты
+                            </a>
                     </li>
                 </ul>
             </div>
