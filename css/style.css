@@ -59,7 +59,7 @@ html{
 
 .section-heading{
     margin-top: 0;
-    padding-left: 45px;
+    padding-left: 40px;
     color: #333333;
     font-size: 40px;
     line-height: 1;
@@ -75,7 +75,14 @@ html{
     font-style: normal;
 }
 
-
+.rub {
+	/* font-family: Muller; */
+	vertical-align: middle;
+	border-bottom: 0.07em solid;
+	line-height: 0.2em;
+	display: inline-block;
+	width: 0.5em;
+}
 
 /* Header */
 
@@ -94,9 +101,10 @@ html{
     margin-bottom: 28px;
 }
 
-/* .logo{
-    position: relative;
-} */
+.logo{
+    /* position: relative; */
+    height: 54px;
+}
 
 .header-phone{
     margin-left: 40px;
@@ -124,7 +132,7 @@ html{
 }
 
 .header-bottom{
-    padding: 25px 45px;
+    padding: 14px 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -152,12 +160,20 @@ html{
     color: #666666;
 }
 
+.header-nav-item-link:hover{
+    color: #CC9933;
+}
+
 .header-bottom-btn{
     display: flex;
 }
 
 
 /* offers */
+.offers-container{
+    margin-bottom: 44px;
+}
+
 .offers-list{
     display: flex;
     align-items: center;
@@ -191,12 +207,12 @@ html{
 
 .offers-card-heading-left{
     font-size: 40px;
-    line-height: 45px;
-    font-weight: 800;
+    line-height: 40px;
+    font-weight: 700;
     font-style: normal;
     color: #ffffff;
     margin-top: 45px;
-    margin-bottom: 0;
+    margin-bottom: 15px;
     
 }
 
@@ -243,8 +259,8 @@ html{
 
 .offers-card-heading-right{
     font-size: 60px;
-    line-height: 70px;
-    font-weight: 800;
+    line-height: 60px;
+    font-weight: 700;
     font-style: normal;
     color: #ffffff;
     margin-top: 213px;
@@ -257,7 +273,7 @@ html{
     font-weight: normal;
     font-style: normal;
     color: #ffffff;
-    margin-top: 53px;;
+    margin-top: 15px;;
     margin-bottom: 45px;
 }
 
@@ -266,13 +282,16 @@ html{
 .about-text{
     font-size: 16px;
     line-height: 32px;
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     color: #000;
     width: 75%;
 }
 
 /* service */
+.service-container{
+    margin-bottom: 50px;
+}
 
 .service-list{
     display: flex;
@@ -300,16 +319,16 @@ html{
     font-weight: 500;
     font-style: normal;
     padding-right: 17px;
-    background-image: url(../img/more-icon.svg);
+    background-image: url(../img/Rectangle\ 2.svg);
     /* background-color: aqua; */
     background-position: right center;
     background-size: 16px 16px;
     background-repeat: no-repeat;
-    color: #f0bf5f;
+    color: #CC9933;
 }
 
 .service-text{
-    margin: 0px 137px 40px 45px;
+    margin: 0px 126px 40px 45px;
     font-size: 16px;
     line-height: 32px;
     font-weight: normal;
@@ -319,6 +338,10 @@ html{
 
 
 /* preference */
+
+.preference-container{
+    margin-bottom: 46px;
+}
 
 .preference-list{
     display: flex;
@@ -339,19 +362,23 @@ html{
 }
 
 .preference-text{
-    padding-right: 57px;
-    margin-top: 20px;
+    padding-right: 42px;
+    margin-top: 10px;
     margin-bottom: 42px;
     margin-left: 45px;
     font-size: 16px;
     line-height: 32px;
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     color: #000;
     
 }
 
 /* location */
+
+.location-container{
+    margin-bottom: 46px;
+}
 
 .location-list{
     display: flex;
@@ -366,21 +393,264 @@ html{
     background-color: #fff;
 }
 
-.location-item-more{
-    background-image: url(../img/location/41.jpg);
-    /* max-width: 30%; */
-    width: 32%;
-    /* position: relative; */
-    /* background: url(../img/location/41.jpg) center center / cover no-repeat; */
+.location-pic{
+    border-radius: 15px 15px 0 0;
 }
 
-/* .location-item-more-link{
-    color: white;
-} */
+.location-item-more{
+    background-image: url(../img/location/41.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32%;
+    border-radius: 15px;
+    margin-bottom: 24px;
+    padding-top: 373px;
+}
 
+.location-item-more-link{
+    color: white;
+    /* margin-top: 373px; */
+    margin-left: 45px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500;
+    font-style: normal;
+    padding-right: 23px;
+    background-image: url(../img/Rectangle\ 2\ \(1\).svg);
+    /* background-color: aqua; */
+    background-position: right center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.location-item-info{
+    margin-top: 32px;
+    margin-left: 45px;
+      /* min-height: max-content; */
+}
 
 .location-item-info-top{
     display: flex;
+    justify-content: space-between;
 }
 
+.location-item-info-rating{
+    margin-right: 40px;
+}
 
+.location-item-info-text{
+    /* margin-top: 16px;
+    margin-bottom: 0; */
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+
+}
+
+.location-item-info-text-gray{
+    margin-top: 16px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #999999;
+}
+
+.location-item-info-price{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    font-style: normal;
+    color: #000;
+}
+
+.location-btn{
+    display: inline-block;
+    margin-bottom: 45px;
+}
+
+/* i want */
+
+.iwant-container{
+    border-radius: 15px;
+    background: #e9e9e9;
+    padding: 0 45px 45px 45px;
+}
+
+.iwant-heading{
+    padding-top: 45px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 31px 28px;
+}
+
+.label-form{
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.input{
+    margin-top: 15px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #000;
+    border: none;
+    height: 25px;
+}
+
+.input::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+.input-num{
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.btn-submit{
+    color: #CC9933;
+    background-color: #fff;
+}
+
+/* Contacts */
+.contacts-container{
+    margin-bottom: 40px;    
+}
+
+.contacts-heading{
+    margin-bottom: 20px;
+}
+
+.contacts-box{
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 45px;
+    padding-bottom: 43px;
+}
+
+.contacts-info{
+    width: 40%;
+}
+
+.contacts-info-item{
+    display: flex;
+    align-items: center;
+    padding-bottom: 13px;
+    margin-right: 60px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.contacts-info-item-title{
+    max-width: 143px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.contacts-info-item-link{
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.contacts-info-item-link-text{
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.contacts-info-item-text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-contacts{
+    padding: 27px 29px;
+    color: #CC9933;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contacts-image{
+    border-radius: 15px;
+}
+
+/* Footer */
+
+.footer-container{
+    display: flex;
+    padding: 45px;
+    /* margin-bottom: 0; */
+    background-color: #333333;
+    border-radius: 15px;
+    background: url(../img/footer-sun.png) 75% 100% no-repeat #333333;
+}
+
+.footer-one{
+    width: 30%;
+    margin-right: 100px;
+ }
+
+.footer-text{
+    color: #fff;
+}
+
+.footer-link{
+    margin-bottom: 0;
+}
+
+.footer-item-one{
+    margin-top: 0;
+    margin-bottom: 37px;
+    font-size: 16px;
+    line-height: 30.4px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-two{
+  width: 40%;
+ }
+
+ .footer-item-two{
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    font-style: normal;
+ }
+
+ .footer-three{
+    margin-left: 190px;
+ }
+
+ .footer-social-item{
+    margin-bottom: 20px;
+ }
